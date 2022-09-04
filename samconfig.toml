@@ -1,0 +1,10 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "simpsonApp"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-h1c39jmg8osp"
+s3_prefix = "simpsonApp"
+region = "us-east-1"
+confirm_changeset = false
+capabilities = "CAPABILITY_IAM"

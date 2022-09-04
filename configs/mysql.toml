@@ -1,0 +1,11 @@
+[default]
+host = "infracloudguille.ce9bdsuygum7.us-east-1.rds.amazonaws.com"
+port = "3306"
+database = "sim"
+user = "guille"
+password ="Guille2021."
+charset = "utf8"
+sql_log = true
+
+MaxIdleConns = 10 
+MaxOpenConns = 10
